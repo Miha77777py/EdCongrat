@@ -1,0 +1,114 @@
+:root {
+    --orange: rgb(207, 179, 0);
+    --gray: rgb(113, 113, 113);
+    --light-gray: rgb(230, 230, 230);
+}
+
+body {
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--gray)
+}
+
+.logo {
+    font-family: "Mooli";
+    font-size: 25px;
+}
+
+.header {
+    border-bottom: 1px solid var(--gray);
+}
+
+.header-logo-Edik {
+    color: var(--orange)
+}
+
+.header-logo-Congrat {
+    color: var(--gray)
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-content-wrap {
+    display: flex;
+    align-items: center;
+    min-height: 60px;
+    gap: 150px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-list-link {
+    color: var(--gray);
+    transition: color 0.2s;
+}
+
+.nav-list-link:hover {
+    color: var(--orange);
+}
+
+.hero-title {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.hero {
+    padding: 20px 0;
+}
+
+.wishes {
+    padding: 125px 0;
+}
+
+.hero-desc {
+    text-align: center;
+    font-weight: 400;
+}
+
+.wishes-card {
+    display: flex;
+    width: 700px;
+    line-height: 35px;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--light-gray);
+    border-radius: 5px;
+}
+
+.wishes-desc {
+    padding-left: 20px;
+}
+
+.wishes-img {
+    height: 175px;
+    border-radius: 5px;
+}
+
+.wishes-link {
+    display: flex;
+    width: 150px;
+    height: 40px;
+    align-self: center;
+    margin-left: 200px;
+    color: var(--gray);
+    border: 2px solid black;
+    border-radius: 5px;
+    justify-content: center;
+    padding: 6px 0;
+    transition: background-color 0.2s;
+}
+
+.wishes-link:hover {
+    background-color: var(--light-gray);
+}
+
+.wishes-content-wrap {
+    display: flex;
+}
